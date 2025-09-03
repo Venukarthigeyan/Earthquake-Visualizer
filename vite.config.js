@@ -5,11 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    allowedHosts: [
-      '.csb.app',           // allow CodeSandbox previews
-      '.stackblitz.io',     // allow StackBlitz previews
-      'mlhcq7-5173.csb.app' // your specific CodeSandbox URL
-    ],
-    host: true              // ensures it binds to 0.0.0.0
+    allowedHosts: 'all',
+    host: '0.0.0.0',
+    port: 5173
   }
 })
