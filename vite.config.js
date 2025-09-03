@@ -7,8 +7,9 @@ export default defineConfig({
   server: {
     allowedHosts: [
       "localhost",
-      ".csb.app", // allow all CodeSandbox preview subdomains
-      ".stackblitz.io" // (optional, if you also test on StackBlitz)
+      "127.0.0.1",
+      "tnckqt-5173.csb.app", // your exact sandbox URL
+      ".csb.app"             // allow all sandbox subdomains
     ]
   }
 });
