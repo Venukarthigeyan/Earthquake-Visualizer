@@ -21,7 +21,7 @@ A React + Leaflet app that visualizes recent earthquakes from USGS feeds.
 ## How to run (local)
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/Venukarthigeyan/Earthquake-Visualizer.git>
 cd earthquake-visualizer
 npm install
 npm run dev
